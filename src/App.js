@@ -4,7 +4,7 @@ import Slider from './components/Slider';
 function App() {
   return (
     <div className='container'>
-      <div className='main-image'>Image</div>
+      <div className='main-image' />
       <div className='sidebar'> Sidebar
 
       </div>
