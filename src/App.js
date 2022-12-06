@@ -6,7 +6,7 @@ function App() {
   return (
     <div className='container'>
       <div className='main-image' />
-      <div className='sidebar'> Sidebar
+      <div className='sidebar'> 
       <SidebarItem />
       <SidebarItem />
       <SidebarItem />

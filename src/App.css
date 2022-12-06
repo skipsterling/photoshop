@@ -58,5 +58,25 @@ padding: 2rem;
     border: none;
     outline: none;
     background-color: black;
+    padding: 1rem;
+    position: relative;
+    transition: background-color 150ms;
 }
 
+.sidebar-item:hover, sidebar-item:focus {
+    background-color: #3f3f3f;
+}
+
+.sidebar-item.active {
+    background-color: #292929;
+}
+
+.sidebar-item::after {
+    content: "";
+    position: absolute;
+    width: 80%;
+    left: 10%;
+    bottom: 0;
+    height: 1px;
+    background-color: grey;
+  }
